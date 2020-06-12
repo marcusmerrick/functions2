@@ -38,20 +38,7 @@ function factorial(x){
 
 console.log('!', factorial(5))
 
-function fibonacci(x){
-    let y = x - 1
-    let first = 0
-    let second = 1
-    let third = 1
-    for (let n = 2; n <= y; n++){
-        third = first + second;
-        first = second
-        second = third
-    }
-    return third
-}
 
-console.log('fibonacci', fibonacci(8))
 //let numberOfLoops = x
 // let multiply = for (let step = 0; step < numberOfLoops; y++){
 //     console.log(multiply)
